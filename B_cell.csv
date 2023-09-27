@@ -1,0 +1,3 @@
+"","Sequences","Length Region","Start","End","Bepipred mean score","Prediction_Score","Antigen","ML.Score_tox","MERCI.Score_tox","BLAST.Score_tox","Hybrid.Score_tox","Prediction_tox","ML.Score_alg","MERCI.Score_alg","BLAST.Score_alg","Hybrid.Score_alg","Prediction_alg"
+"1","FKHVKSDIKIEKLN","14","35","48","0.1900398880243301","0.872","true","0.628","0","0","0.628","Toxin","0.247","0","0","0.247","Non-Allergen"
+"2","NNYTSQQVSNKKNDAWRD","18","60","77","0.2427686262461874","0.6591","true","0.653","0","0","0.653","Toxin","0.27","0","0","0.27","Non-Allergen"
