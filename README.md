@@ -15,6 +15,8 @@ The first step to run the code is to have installed the software dependencies th
 # 2. Run and configure the installed Software.
 After downloading the software, you need to ensure that this files can be executed and run correctly through Command Prompt.
 
+# 3. Make a Local_software folder in the VaccineDesigner folder
+
 # 3. Install Python packages.
 The third step is to install the required packages for the Vaccine Designer scripts with the command:
 
@@ -29,6 +31,23 @@ RUN R -e "install.packages('BiocManager')"
 RUN R -e "library(BiocManager);BiocManager::install('Biostrings')"
 
 # 5. Make executable the .sh files
+You need to run the following commands in your Command Prompt. Move with the "cd" command to the folder that the files are stored and run:
+RUN chmod +x update_envfile_toxin_alg.sh
+RUN chmod +x update_path_net.sh
+
+# 6. Run the executable files
+
+RUN update_envfile_toxin_alg.sh path_envfile_toxinpred2 path_blastp ./toxinpred2/toxinpred2/Database/data ./toxinpred2/toxinpred2/progs/MERCI_motif_locator.pl ./toxinpred2/toxinpred2/Database/pos_motif.txt
+
+RUN update_envfile_toxin_alg.sh ./algpred2_new/algpred2_new/envfile path_blastp ./algpred2_new/algpred2_new/Database/data ./algpred2_new/algpred2_new/progs/MERCI_motif_locator.pl ./algpred2_new/algpred2_new/Database/pos_ige_motifs.txt
+
+RUN update_path_net.sh path_to_netMHCpan path_to_folder_netMHCpan-4.1
+RUN update_path_net.sh path_to_netMHCIIpan path_to_folder_netMHCIIpan-4.1
+
+You need to change the paths based on your system.
+
+# 7. 
+
 
 
 
