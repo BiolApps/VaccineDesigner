@@ -2357,100 +2357,100 @@ server <- function(input,output,session) {
   })
   ################IMAGES  MANUAL ###################################################
   output$img_001 <- renderImage({
-    return(list(src = "Manual_software.files/image001.png",
+    return(list(src = "image001.png",
          contentType="image/png",alt="Figure 1",width="100%"))
   }, deleteFile = FALSE)
   output$img_002 <- renderImage({
-    return(list(src = "Manual_software.files/image003.png",
+    return(list(src = "image003.png",
                 contentType="image/png",alt="Figure 2",width="100%"))
   }, deleteFile = FALSE)
   output$img_003 <- renderImage({
-    return(list(src = "Manual_software.files/image005.png",
+    return(list(src = "image005.png",
                 contentType="image/png",alt="Figure 3",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_004 <- renderImage({
-    return(list(src = "Manual_software.files/image007.png",
+    return(list(src = "image007.png",
                 contentType="image/png",alt="Figure 4",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_005 <- renderImage({
-    return(list(src = "Manual_software.files/image009.png",
+    return(list(src = "image009.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_006 <- renderImage({
-    return(list(src = "Manual_software.files/image011.png",
+    return(list(src = "image011.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_007 <- renderImage({
-    return(list(src = "Manual_software.files/image013.png",
+    return(list(src = "image013.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_008 <- renderImage({
-    return(list(src = "Manual_software.files/image015.png",
+    return(list(src = "image015.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_009 <- renderImage({
-    return(list(src = "Manual_software.files/image017.png",
+    return(list(src = "image017.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_010 <- renderImage({
-    return(list(src = "Manual_software.files/image019.png",
+    return(list(src = "image019.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_011 <- renderImage({
-    return(list(src = "Manual_software.files/image021.png",
+    return(list(src = "image021.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_012 <- renderImage({
-    return(list(src = "Manual_software.files/image023.png",
+    return(list(src = "image023.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_013 <- renderImage({
-    return(list(src = "Manual_software.files/image025.png",
+    return(list(src = "image025.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_014 <- renderImage({
-    return(list(src = "Manual_software.files/image027.png",
+    return(list(src = "image027.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_015 <- renderImage({
-    return(list(src = "Manual_software.files/image029.png",
+    return(list(src = "image029.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_016 <- renderImage({
-    return(list(src = "Manual_software.files/image031.png",
+    return(list(src = "image031.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_017 <- renderImage({
-    return(list(src = "Manual_software.files/image033.png",
+    return(list(src = "image033.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_018 <- renderImage({
-    return(list(src = "Manual_software.files/image035.png",
+    return(list(src = "image035.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_019 <- renderImage({
-    return(list(src = "Manual_software.files/image037.png",
+    return(list(src = "image037.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
   output$img_020 <- renderImage({
-    return(list(src = "Manual_software.files/image039.png",
+    return(list(src = "image039.png",
                 contentType="image/png",alt="Figure 5",width="100%"))
   }, deleteFile = FALSE)
   
