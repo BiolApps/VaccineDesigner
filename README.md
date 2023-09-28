@@ -48,7 +48,10 @@ RUN update_path_net.sh path_to_netMHCIIpan path_to_folder_netMHCIIpan-4.1
 
 You need to change the paths based on your system.
 
-# 8. 
+# 8. Go to server.R and change the according paths
+Go to server.R script, and change the according paths with the place of the scripts or executables. Maybe you will need to make new directories for results etc., be sure to be placed inside the root directory.
+
+# 9. Make sure that the software netMHCpan and netMHCIIpan, are moved to /usr/local/bin folder, to be executed without path.
 
 
 
