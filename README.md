@@ -1,5 +1,5 @@
 # Vaccine Designer
-Vaccine Designer is an R Shiny application aiming for the construction of vaccine sequences  based on multi epitope design workflow.
+Vaccine Designer is an R Shiny application aiming for the construction of vaccine sequences  based on multi epitope design workflow. The web-tool can be accessible through : bioinformatics.med.auth.gr/VaccineDesigner
 
 The source code of the Project is based on R and Python programming languages. It is recommended to run to Linux system for the dependencies. 
 The application has dependencies on the software of:
