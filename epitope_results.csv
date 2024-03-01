@@ -1,0 +1,9 @@
+﻿SB,WB,Start,End,ML.Score_tox,Prediction_tox,ML.Score_alg,Prediction_alg
+1,4,158,166,0.654,Non-Toxin,0.359,Non-Allergen
+0,4,102,110,0.634,Non-Toxin,0.317,Non-Allergen
+0,1,18,26,0.631,Non-Toxin,0.23,Non-Allergen
+0,1,28,36,0.457,Non-Toxin,0.272,Non-Allergen
+0,1,31,39,0.659,Non-Toxin,0.294,Non-Allergen
+0,1,48,56,0.565,Non-Toxin,0.344,Non-Allergen
+2,0,79,87,0.633,Non-Toxin,0.343,Non-Allergen
+1,0,17,25,0.617,Non-Toxin,0.235,Non-Allergen

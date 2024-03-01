@@ -62,7 +62,7 @@ def Vaxijen(df,target,threshold):
         temp=Vaxijen_fnc(k,target,threshold)
         pred_score.append(temp['prediction_score'])
         antigen.append(bool(temp['ANTIGEN']))
-        time.sleep(1)
+        time.sleep(0.01)
 
     data={'Sequences':seqs,'Prediction_Score':pred_score,'Antigen':antigen}
     df=pd.DataFrame.from_dict(data)
