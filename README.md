@@ -8,6 +8,15 @@ The application has dependencies on the software of:
 3) netMHCIIpan 4.0
 4) ToxinPred2
 5) Algpred2
+6) IEDB MHC Class I
+7) IEDB MHC Class II
+8) IEDB Population Coverage
+9) DeepVacPred Source code
+10) NetChop 3.1
+
+The additional tools used in the pipeline, that do not require local installation are:
+1) VaxiJen 2.0
+2) ProtParam
 
 # 1. Installation of Software Dependencies.
 The first step to run the code is to have installed the software dependencies that listed above. Some of the software need of academic licence to be installed.
